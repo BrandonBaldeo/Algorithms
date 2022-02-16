@@ -28,7 +28,7 @@ function parensValid(str) {
   }
   return false;
 }
-console.log(parensValid(')') === false);
+console.log(parensValid('())') === false);
 console.log(parensValid('hello!') === true);
 console.log(parensValid('a(z)g') === true);
 console.log(parensValid('12;(d-[)](qwg)a') === true);
