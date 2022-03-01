@@ -52,10 +52,13 @@ console.log(recursiveFactorial(4));
 // 0    1    1    2    3    5    8    13    21    34    55
 
 function recursiveFibonacci(num) {
-  if (num < 2) {
+  if (num == 0) {
+    return 0;
+  }
+  if (num == 1) {
     return 1;
   }
   return recursiveFibonacci(num - 1) + recursiveFibonacci(num - 2);
 }
 
-console.log(recursiveFibonacci(9));
+console.log(recursiveFibonacci(8));
