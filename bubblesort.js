@@ -28,3 +28,18 @@ console.log(test_b); // should display [1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 5, 6, 9]
 // let temp = x[0];
 // x[0] = x[1];
 // x[1] = temp;
+
+// function bubbleSort(arr){
+//   // move from left to right in the array starting at index 0
+// for (let j = 0; j < arr.length -1; j++){
+//   for (let i = 0; i < arr.length - j ; i++){
+//       // compar the value at the current index wit the value at the next- if value is greater than the next
+//       if (arr[i] > arr[i+1]){
+//           //if out of order,Swap value at the current index with the value of the next
+//           [arr[i], arr[i+1]] = [arr[i+1], arr[i]]
+//       }
+//   }
+
+// }
+// return arr
+// }
